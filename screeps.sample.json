@@ -1,0 +1,16 @@
+{
+    "private": {
+        "protocol": "http",
+        "host": "localhost:21025",
+        "port": 21025,
+        "email": "",
+        "password": "",
+        "branch": "main"
+    },
+    "public": {
+        "protocol": "http",
+        "host": "NA",
+        "port": 80,
+        "token": ""
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+        "module": "ES2020",
+        "moduleResolution": "Node",
+        "lib": [
+            "ES2018"
+        ],
+        "target": "ES2018",
+        "strict": true, // Disable this if you want to use `any`
+        "outDir": "dist",
+        "rootDir": "src/",
+        "sourceMap": true,
+        "experimentalDecorators": true,
+        "noImplicitReturns": true,
+        "allowSyntheticDefaultImports": true,
+        "allowUnreachableCode": false,
+        "paths": {}
+    },
+    "include": [
+        "src/**/*.ts",
+        "src/**/*.d.ts"
+    ],
+    "exclude": [
+        "node_modules",
+        "tests"
+    ]
+}
